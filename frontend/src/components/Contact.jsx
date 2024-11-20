@@ -12,7 +12,7 @@ const Contact = () => {
     e.preventDefault();
     await axios
       .post(
-        "http://localhost:3000/api/v1/message/send",
+        "https://ewaste-ueo4.onrender.com",
         {
           name,
           email,
