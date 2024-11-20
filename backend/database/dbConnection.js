@@ -3,7 +3,7 @@ import mongoose from "mongoose";
 
 export const dbConnection = () => {
     mongoose
-      .connect("add connectionstring of your database", { dbName: "Ewaste"})
+      .connect("add connection string of your database", { dbName: "your database name"})
       .then(() => {
         console.log("Connected to database!");
       })
